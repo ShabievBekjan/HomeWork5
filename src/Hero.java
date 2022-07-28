@@ -9,6 +9,11 @@ public class Hero {
         SuperPower = superPower;
     }
 
+    public Hero(int heroHealth, int damage) {
+        HeroHealth = heroHealth;
+        Damage = damage;
+    }
+
     public int getHeroHealth() {
         return HeroHealth;
     }
